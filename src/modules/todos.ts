@@ -22,6 +22,8 @@ export const removeTodo = (id: number) => ({
     type: REMOVE_TODO,
     payload: id
 })
+//https://jemerald.tistory.com/33 redux axios 혼합
+//https://velog.io/@skyepodium/axios-%EC%9D%B8%ED%84%B0%EC%85%89%ED%84%B0%EB%A1%9C-API-%EA%B4%80%EB%A6%AC%ED%95%98%EA%B8%B0
 
 // Union Action tpye 정의
 type TodoAction =
